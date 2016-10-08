@@ -1,28 +1,19 @@
-== README
+== RUBY ON RAILS WORKSHOP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello folks, this is the codebase which runs our NEIUGRAM. Every week the porgress can be seen in the master.
 
-Things you may want to cover:
+Keep an eye out for the gems we add and .HAML extension for our UI.
 
-* Ruby version
+* Ruby version 2.3.1
 
-* System dependencies
+* Rails version 4.2.7.1
 
-* Configuration
+GEMS ADDED:
 
-* Database creation
+* gem "paperclip", "~> 5.0.0"
+* gem 'simple_form'
+* gem 'haml', '~> 4.0.5'
+* gem 'bootstrap-sass', '~> 3.3.6'
+* gem 'html2haml'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Have fun with this! :)
