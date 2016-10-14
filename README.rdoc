@@ -2,6 +2,9 @@
 
 Hello folks, this is the codebase which runs our NEIUGRAM. Every week the porgress can be seen in the master.
 
+Link to live webpage is : https://limitless-wave-18654.herokuapp.com/
+(If the images seem broken, that might be as I am using a free Heroku account and it doesnt let me store the images online for very long)
+
 Keep an eye out for the gems we add and .HAML extension for our UI.
 
 * Ruby version 2.3.1
