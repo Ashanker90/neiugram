@@ -13,10 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {  
+body {
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
@@ -128,9 +129,6 @@ body {
   color: #4B4F54;
 }
 
-.full-width{
-  width: 100% !important;
-}
 .comment-like-form {
   padding-top: 24px;
   margin-top: 13px;
@@ -157,4 +155,52 @@ body {
 .edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+html {  
+  height: 100%;
+}
+
+.registration-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('regpackg.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.log-in{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  border: none;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading{
+  h1 {
+    text-align: center;
+  }
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+i
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('loginbg.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
